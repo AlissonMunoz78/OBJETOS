@@ -3,13 +3,12 @@ public class Persona {
     int edad;
     String genero;
 
-    // Método para presentarse
     public void presentarse() {
+        System.out.println("---INFORMACION PERSONA---");
         System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
     }
 
     public static void main(String[] args) {
-        // Creación de objetos de la clase Persona
         Persona persona1 = new Persona();
         persona1.nombre = "Juan";
         persona1.edad = 25;
